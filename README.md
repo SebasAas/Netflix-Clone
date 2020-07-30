@@ -6,11 +6,11 @@ Live Preview [Netflix Clone](https://movie-app-f10d3.web.app).
 
 ### Stack
 
--React
--React-Redux for manage the state
--Redux-Persist to persist the data
--Firebase to serve the app
--Firestore as a DB
+- React
+- React-Redux for manage the state
+- Redux-Persist to persist the data
+- Firebase to serve the app
+- Firestore as a DB
 
 ### Considerations
 
@@ -18,4 +18,4 @@ This project is using the API of [TMDB](https://www.themoviedb.org/), for that r
 
 REACT_APP_API_KEY_TMDB=<YourApiKey>
 
-![alt](https://imgur.com/a/PmvP5MT)
+<img src=“https://imgur.com/a/PmvP5MT”>
