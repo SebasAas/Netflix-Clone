@@ -18,4 +18,4 @@ This project is using the API of [TMDB](https://www.themoviedb.org/), for that r
 
 REACT_APP_API_KEY_TMDB="Your API Key"
 
-<img src="https://imgur.com/TO0j3Cw" />
+![Image](https://imgur.com/TO0j3Cw)
