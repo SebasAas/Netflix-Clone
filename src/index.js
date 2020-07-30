@@ -4,9 +4,31 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// CSS
+import 'bootstrap/dist/css/bootstrap.css';
+
+// Routes
+import { BrowserRouter as Router } from 'react-router-dom';
+
+// Redux
+import { Provider } from 'react-redux';
+import { store, persistor } from './redux/store';
+
+// Persist Redux
+import { PersistGate } from 'redux-persist/integration/react';
+
+// Env
+require('dotenv').config();
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <Router>
+        <PersistGate loading={null} persistor={persistor}>
+          <App />
+        </PersistGate>
+      </Router>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

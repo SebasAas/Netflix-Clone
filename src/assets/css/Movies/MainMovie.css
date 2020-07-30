@@ -1,0 +1,248 @@
+.home__container{
+  padding: 0 !important;
+  height: 55vw;
+  width: 100%;
+  position: absolute;
+  z-index: 0 !important;
+  /* -webkit-mask-image: linear-gradient(to top, transparent 10%, transparent 5%, #141414 30%); */
+}
+
+.home__container__title__desc {
+  position: absolute;
+  height: 55vw;
+  /* background: linear-gradient(77deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%); */
+  top: 0;
+  left: 0;
+  right: 26.09%;
+  bottom: 0;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 1 !important;
+}
+
+.home__image {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: contain;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, transparent 6%, #141414 13%);
+}
+
+.home__video {
+  /* margin-top: -8vw; */
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, transparent 6%, #141414 13%);
+} 
+
+.home__info {
+  padding: 7%;
+}
+
+.home__logo__image {
+  width: 100%;
+  height: 100%;
+}
+
+.home__info__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.home__rating__country {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.home__rating__country > svg {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.3vw;
+  font-weight: 600;
+}
+
+.home__rating__country > span {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5vw;
+}
+
+.home__desc__banner {
+  margin-top: 0.3vw;
+}
+
+.home__desc__banner > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.home__button__play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  height: 3.8vw;
+  padding: 0.2vw;
+  background-color: whitesmoke;
+  border: 0px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.home__button__play > span{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 700;
+  padding-left: 1vw;
+}
+
+.home__button__moreinfo {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  height: 3.8vw;
+  padding: 0.2vw;
+  background-color: #343436;
+  border: 0px;
+  border-radius: 5px;
+  opacity: 0.8;
+  margin-left: 2vw;
+}
+
+.home__button__moreinfo > span{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 700;
+  padding-left: 1vw;
+}
+
+.home__sound {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 18vw;
+  right: 9vw;
+}
+
+.bottom-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  height: 3vw;
+  width: 3vw;
+}
+
+.bottom-right > svg {
+  width: 1.7vw;
+  height: 1.7vw;
+  color: whitesmoke;
+}
+
+.home__limit {
+  position: absolute;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  bottom: 18vw;
+  right: 0vw;
+  background-color: #343436;
+  opacity: 0.7;
+  height: 3vw;
+  width: 8vw;
+  padding-left: 0.1vw;
+}
+
+.home__limit > span {
+  color: whitesmoke;
+  padding-left: 2vw;
+  font-weight: 500;
+  font-size: 1.5vw;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .home__info__description > div > span{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
+
+.home__info__description > div > p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+} */
+
+/* 
+@media (min-width: 576px) { 
+  
+}
+
+@media (min-width: 768px) { 
+  .home__desc__banner {
+    margin-top: 0.3vw;
+  }
+  
+  .home__desc__banner > p {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 992px) { 
+  .home__desc__banner {
+    margin-top: 0.3vw;
+  }
+  
+  .home__desc__banner > p {
+    font-size: 1.5vw;
+    font-weight: 500;
+  }
+}
+
+
+@media (min-width: 1200px) { 
+  .home__desc__banner {
+    margin-top: 0.3vw;
+  }
+  
+  .home__desc__banner > p {
+    font-size: 1.4vw;
+    font-weight: 500;
+  }
+}
+*/
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

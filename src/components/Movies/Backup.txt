@@ -1,0 +1,28 @@
+<div onMouseOver={() => showMiniVideo(movie.id)} onMouseOut={stopMiniVideo} style={{ height: '100%', width: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    {idYoutubeVideo ?
+                      // <video loop muted autoPlay style={{ height: '140.625px', width: '250px' }}>
+                      //   <source src={video} />Your browser does not support the video tag. I suggest you upgrade your browser.
+                      // </video>
+                      // <svg style={{ color: 'red' }} width="1.5vw" height="1.5vw" viewBox="0 0 16 16" className="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      //   <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                      // </svg>
+                      (idMovie === movie.id ?
+                        (existVideo ?
+                          console.log("hay video")
+                          // <iframe width="250px" height="140.625px" src={`https://www.youtube.com/embed/${idYoutubeVideo}?autoplay=1&mute=1`} frameBorder="0" allow="autoplay; encrypted-media;"></iframe>
+                          :
+                          console.log("no hay video")
+                          // <h1 style={{ color: "white" }}>No hay video</h1>
+                        )
+
+                        // console.log(`https://www.youtube.com/embed/${idYoutubeVideo}`)
+                        :
+                        console.log("no es el id")
+                        // null
+                      )
+                      :
+                      <svg style={{ color: 'white' }} width="1.5vw" height="1.5vw" viewBox="0 0 16 16" className="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                      </svg>
+                    }
+                  </div>
