@@ -18,4 +18,4 @@ This project is using the API of [TMDB](https://www.themoviedb.org/), for that r
 
 REACT_APP_API_KEY_TMDB="Your API Key"
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/PmvP5MT" data-context="false"><a href="//imgur.com/a/PmvP5MT"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://imgur.com/TO0j3Cw" />
